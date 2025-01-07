@@ -453,7 +453,7 @@ section {
     font-size: 2rem;
 }
 
-.footer .credit span {
+.footer .credit a {
     color: var(--red);
 }
 
