@@ -248,9 +248,15 @@ section {
     margin-left: 2rem;
 }
 
+/* usage */
+
 .usage .row {
     display: flex;
     align-items: center;
+}
+
+.usage .row .divider {
+    padding: 0 1rem;
 }
 
 .usage .row .divider {
@@ -281,6 +287,18 @@ section {
 .usage .row .box-container:first-child {
     text-align: right;
 }
+
+@media (max-width:425px) {
+    .usage .row .divider {
+        text-align: center;
+        width: 90%;
+    } 
+}
+
+/* usage ends */
+
+
+/* review starts */
 
 .review .box-container {
     display: flex;
@@ -483,9 +501,9 @@ section {
         font-size: 55%;
     }
 
-    header {
+    /* header {
         padding: 2rem 4%;
-    }
+    } */
 
     section {
         padding: 3rem 4;
