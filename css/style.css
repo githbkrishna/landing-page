@@ -63,7 +63,7 @@ header {
 header .logo {
     font-weight: bolder;
     color: #fff;
-    width: 170px;
+    width: 80px;
 }
 
 header .logo img{
@@ -99,7 +99,8 @@ section {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    text-align: center
+    text-align: center;
+    overflow-x: hidden;
 }
 
 .home .content {
